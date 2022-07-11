@@ -24,17 +24,6 @@ int game(){
 	t2 = randNumber(22, 42);
 	AIy = (ARENA - (ARENA - t2) - 1);
 	while (p != 1){
-		/*printf("\nc=%d\n", c);
-		printf("hit=%d\n", hit);
-		printf("t1=%d\n", t1);
-		printf("t2=%d\n", t2);
-		printf("k=%d\n", k);
-		printf("AIx=%d\n", AIx);
-		printf("AIy=%d\n", AIy);0
-		printf("q=%d\n", q);
-		printf("TESTx=%d\n", TESTx);
-		printf("TESTy=%d\n", TESTy);
-		printf("t2-c=%d\n", t2-c);*/
 		if (k > 0) {
 			if (k % 2 == 0) {
 				printf("\nIt's computer's turn! WAITING FOR MOVE...");
